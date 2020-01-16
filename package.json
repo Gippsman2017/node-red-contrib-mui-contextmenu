@@ -1,0 +1,39 @@
+{
+    "name": "node-red-contrib-mui-contextmenu",
+    "version": "0.0.6",
+    "description": "A Node-RED widget node to show a popup contextmenu in a Node-RED mDashboard",
+    "dependencies": {
+    },
+    "author": {
+        "name": "Bart Butenaers"
+    },
+    "contributors": [
+        {
+            "name": "Gippsman2017",
+            "url": "https://github.com/Gippsman2017"
+        }
+    ],
+    "license": "Apache-2.0",
+    "keywords": [
+        "node-red",
+        "svg",
+        "graphics",
+        "interactive",
+        "drawing",
+        "floorplan",
+        "floor plan"
+    ],
+    "bugs": {
+        "url": "https://github.com/gippsman2017/node-red-contrib-mui-contextmenu/issues"
+    },
+    "homepage": "https://github.com/gippsman2017/node-red-contrib-mui-contextmenu",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gippsman2017/node-red-contrib-mui-contextmenu.git"
+    },
+    "node-red": {
+        "nodes": {
+            "mui_context_menu": "mcontext_menu.js"
+        }
+    }
+}
